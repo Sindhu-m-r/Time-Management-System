@@ -61,6 +61,7 @@ m = tk.Tk()
 
 m.geometry('400x430')
 m.title('Welcome')
+m.configure(bg='#f0f0f0') 
 
 tk.Label(
     m,
@@ -72,7 +73,9 @@ tk.Label(
 tk.Label(
     m,
     text='Welcome!\nLogin to continue',
-    font=('Consolas', 12, 'italic')
+    font=('Consolas', 12, 'italic'),
+    bg='#f0f0f0',
+    fg='darkblue'
 ).pack(pady=10)
 
 tk.Label(
